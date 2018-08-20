@@ -1,0 +1,21 @@
+{
+    "name": "strack/natron",
+    "description": "use natron render to trancode media",
+    "type": "library",
+    "require": {
+        "sabre/xml": "2.1.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "weijer",
+            "email": "chengwei@strack.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Natron\\": "src"
+        }
+    }
+}
